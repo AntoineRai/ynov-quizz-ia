@@ -2,20 +2,25 @@ import React, { useState } from 'react';
 import './App.css';
 import Quiz from './components/Quiz';
 import Header from './components/Header';
+import Results from './components/Results';
 
 function App() {
   const [currentStep, setCurrentStep] = useState('intro');
+  const [finalScore, setFinalScore] = useState(0);
+  const [totalQuestions] = useState(5);
 
   const handleStartQuiz = () => {
     setCurrentStep('quiz');
   };
 
-  const handleFinishQuiz = () => {
+  const handleFinishQuiz = (score) => {
+    setFinalScore(score);
     setCurrentStep('results');
   };
 
   const handleRestart = () => {
     setCurrentStep('intro');
+    setFinalScore(0);
   };
 
   return (
@@ -52,25 +57,11 @@ function App() {
         )}
         
         {currentStep === 'results' && (
-          <div className="results-section">
-            <h2 className="results-title">Merci d'avoir participé !</h2>
-            <p className="results-text">
-              L'impact écologique de l'IA est réel et mérite notre attention. 
-              Chaque petit geste compte pour réduire notre empreinte numérique.
-            </p>
-            <div className="eco-tips">
-              <h3>Conseils pour réduire votre impact :</h3>
-              <ul>
-                <li>Fermez les onglets inutiles</li>
-                <li>Réduisez les générations d'images IA</li>
-                <li>Privilégiez des outils sobres</li>
-                <li>Pensez avant de générer du contenu</li>
-              </ul>
-            </div>
-            <button className="restart-button" onClick={handleRestart}>
-              Recommencer le quiz
-            </button>
-          </div>
+          <Results 
+            score={finalScore}
+            totalQuestions={totalQuestions}
+            onRestart={handleRestart}
+          />
         )}
       </main>
     </div>

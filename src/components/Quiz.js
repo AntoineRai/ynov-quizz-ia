@@ -96,7 +96,8 @@ const Quiz = ({ onFinish }) => {
       setShowAnswer(false);
       setSelectedAnswer(null);
     } else {
-      onFinish();
+      // Passer le score final au composant parent (score déjà mis à jour)
+      onFinish(score);
     }
   };
 
@@ -149,7 +150,7 @@ const Quiz = ({ onFinish }) => {
 
         <div className="quiz-footer">
           <div className="score-display">
-            Score: {score}/{currentQuestion + 1}
+            Score: {score}/{questions.length}
           </div>
         </div>
       </div>
