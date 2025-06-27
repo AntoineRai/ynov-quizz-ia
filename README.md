@@ -63,8 +63,8 @@ Un quiz interactif et éducatif sur l'impact environnemental de l'intelligence a
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/quizz-ia.git
-cd quizz-ia
+git clone https://github.com/votre-username/eco-ia-quiz.git
+cd eco-ia-quiz
 
 # Installer les dépendances
 npm install

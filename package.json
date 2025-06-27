@@ -1,7 +1,11 @@
 {
-  "name": "quizz-ia",
+  "name": "eco-ia-quiz",
   "version": "0.1.0",
   "private": true,
+  "description": "Quiz interactif sur l'impact écologique de l'intelligence artificielle - Application React éducative",
+  "keywords": ["react", "quiz", "ecologie", "ia", "environnement", "education"],
+  "author": "Eco-IA Quiz Team",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
