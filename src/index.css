@@ -1,13 +1,66 @@
-body {
+/* Import des polices Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&family=Satisfy&display=swap');
+
+/* Variables CSS pour la charte graphique */
+:root {
+  --black-deep: #0A0A0A;
+  --green-acid: #A3FF3C;
+  --gray-industrial: #6E6E6E;
+  --red-hot: #FF5E5B;
+  --white-pure: #FFFFFF;
+  --gray-light: #1A1A1A;
+  --gray-medium: #2A2A2A;
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--black-deep);
+  color: var(--white-pure);
+  line-height: 1.6;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: var(--gray-medium);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: var(--green-acid);
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-industrial);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-acid);
+}
+
+/* Sélection de texte */
+::selection {
+  background: var(--green-acid);
+  color: var(--black-deep);
+}
+
+::-moz-selection {
+  background: var(--green-acid);
+  color: var(--black-deep);
 }

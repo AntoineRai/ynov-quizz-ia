@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🌍 Eco-IA Quiz - Impact Écologique de l'IA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un quiz interactif et éducatif sur l'impact environnemental de l'intelligence artificielle, conçu pour sensibiliser aux conséquences écologiques cachées de nos outils numériques.
 
-## Available Scripts
+## 🎯 Objectifs
 
-In the project directory, you can run:
+- **Comprendre** les conséquences énergétiques de l'IA
+- **Prendre conscience** de l'empreinte cachée des outils numériques  
+- **Provoquer une réflexion** sur les usages responsables
+- **Adopter des pratiques** plus éco-responsables
 
-### `npm start`
+## 🎨 Charte Graphique
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Couleurs
+- **Noir profond** `#0A0A0A` - Fond sérieux et sobre
+- **Vert acide** `#A3FF3C` - Signal écologique
+- **Gris industriel** `#6E6E6E` - Data centers et machines
+- **Rouge chaud** `#FF5E5B` - Surchauffe et alertes
+- **Blanc pur** `#FFFFFF` - Lisibilité maximale
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Typographie
+- **Titres** : Anton (capitales condensées)
+- **Corps** : Inter (moderne et lisible)
 
-### `npm test`
+## 🚀 Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Quiz Interactif
+- **5 questions** sur l'impact écologique de l'IA
+- **Disposition en grille 2x2** pour les réponses
+- **Animations** : pulse pour correct, shake pour incorrect
+- **Pop-up explicative** avec détails environnementaux
+- **Barre de progression** en temps réel
+- **Score dynamique**
 
-### `npm run build`
+### Interface Responsive
+- **Desktop** : Grille 2x2 optimisée
+- **Mobile** : Adaptation automatique
+- **Header simplifié** sur mobile
+- **Pop-up adaptative**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Expérience Utilisateur
+- **Navigation fluide** avec pop-up intégrée
+- **Explications détaillées** après chaque réponse
+- **Conseils pratiques** pour réduire l'impact
+- **Design moderne** et engageant
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📱 Questions du Quiz
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Consommation énergétique GPT-3** - Équivalent à un quartier entier
+2. **Consommation d'eau des data centers** - Refroidissement des machines
+3. **Extraction des métaux rares** - Pour les puces électroniques
+4. **Gestes pour réduire l'impact** - Pratiques responsables
+5. **Slogan clé** - "Ce n'est pas parce que c'est virtuel que ce n'est pas polluant"
 
-### `npm run eject`
+## 🛠️ Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React 19** - Interface utilisateur
+- **CSS3** - Styling et animations
+- **JavaScript ES6+** - Logique interactive
+- **Google Fonts** - Typographie
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Cloner le repository
+git clone https://github.com/votre-username/quizz-ia.git
+cd quizz-ia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Installer les dépendances
+npm install
 
-## Learn More
+# Lancer en mode développement
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Build pour production
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Déploiement
 
-### Code Splitting
+Le projet peut être déployé sur :
+- **Netlify** - Déploiement automatique
+- **Vercel** - Performance optimisée
+- **GitHub Pages** - Hébergement gratuit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📊 Statistiques Clés
 
-### Analyzing the Bundle Size
+- **284 tonnes de CO₂** - Entraînement GPT-3
+- **700 000 litres d'eau** - Consommation quotidienne d'un data center
+- **Métaux rares** - Extraction polluante pour les puces
+- **Impact invisible** - Coût énergétique réel de chaque requête
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎯 Impact Pédagogique
 
-### Making a Progressive Web App
+Ce quiz vise à :
+- **Éduquer** sur l'impact environnemental caché
+- **Sensibiliser** aux pratiques responsables
+- **Encourager** la réflexion sur nos usages numériques
+- **Proposer** des solutions concrètes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contribution
 
-### Advanced Configuration
+Les contributions sont les bienvenues ! N'hésitez pas à :
+- Ajouter de nouvelles questions
+- Améliorer le design
+- Optimiser les performances
+- Corriger des bugs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 Licence
 
-### Deployment
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🙏 Remerciements
 
-### `npm run build` fails to minify
+- Données environnementales : Études sur l'impact de l'IA
+- Design inspiré par les meilleures pratiques UX
+- Communauté React pour les ressources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+**🌱 Ensemble, adoptons des pratiques numériques plus responsables !**
