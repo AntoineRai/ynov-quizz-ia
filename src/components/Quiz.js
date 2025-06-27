@@ -48,6 +48,18 @@ const Quiz = ({ onFinish }) => {
     },
     {
       id: 4,
+      question: "Combien de litres d'eau ont été indirectement consommés aujourd'hui à cause de l'utilisation intensive de l'IA pendant ce hackathon ? (Environ 100 étudiants utilisant des IA génératives en continu)",
+      options: [
+        "50 litres",
+        "500 litres",
+        "5 000 litres",
+        "Plus de 50 000 litres"
+      ],
+      correct: 3,
+      explanation: "Avec 100 étudiants utilisant des IA génératives en continu pendant un hackathon, la consommation d'eau indirecte peut dépasser 50 000 litres ! Cela inclut l'eau nécessaire au refroidissement des data centers et à la production d'électricité."
+    },
+    {
+      id: 5,
       question: "Quel geste n'est pas utile pour réduire son impact numérique ?",
       options: [
         "Fermer les onglets inutiles",
@@ -59,7 +71,7 @@ const Quiz = ({ onFinish }) => {
       explanation: "Générer des images IA juste pour s'amuser multiplie inutilement la consommation d'énergie. Chaque génération d'image peut consommer autant qu'une ampoule allumée pendant 30 minutes."
     },
     {
-      id: 5,
+      id: 6,
       question: "Quel slogan résume le mieux le message ?",
       options: [
         "Ce n'est pas parce que c'est virtuel que ce n'est pas polluant.",
