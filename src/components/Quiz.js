@@ -60,6 +60,42 @@ const Quiz = ({ onFinish }) => {
     },
     {
       id: 5,
+      question: "Combien d'électricité consomme une seule requête à ChatGPT ?",
+      options: [
+        "Autant qu'une ampoule LED pendant 1 minute",
+        "Autant qu'un smartphone en charge pendant 10 minutes",
+        "Autant qu'un ordinateur portable pendant 1 heure",
+        "Autant qu'un réfrigérateur pendant 2 heures"
+      ],
+      correct: 1,
+      explanation: "Une seule requête à ChatGPT consomme environ 0,01 kWh, soit l'équivalent de la charge d'un smartphone pendant 10 minutes. Multiplié par des millions d'utilisateurs, l'impact devient énorme !"
+    },
+    {
+      id: 6,
+      question: "Quel est l'impact énergétique de la génération d'une image par IA ?",
+      options: [
+        "Équivalent à 1 minute d'éclairage LED",
+        "Équivalent à 30 minutes d'éclairage LED",
+        "Équivalent à 2 heures d'éclairage LED",
+        "Équivalent à 1 jour d'éclairage LED"
+      ],
+      correct: 1,
+      explanation: "Générer une image par IA consomme environ 0,005 kWh, soit l'équivalent d'une ampoule LED allumée pendant 30 minutes. C'est pourquoi il faut éviter les générations multiples inutiles !"
+    },
+    {
+      id: 7,
+      question: "Quel est le pourcentage d'émissions de CO₂ du secteur numérique dans le monde ?",
+      options: [
+        "Moins de 1%",
+        "Entre 2% et 4%",
+        "Entre 5% et 8%",
+        "Plus de 10%"
+      ],
+      correct: 1,
+      explanation: "Le secteur numérique représente environ 2-4% des émissions mondiales de CO₂, soit l'équivalent du secteur aérien. L'IA contribue de plus en plus à cette empreinte carbone."
+    },
+    {
+      id: 8,
       question: "Quel geste n'est pas utile pour réduire son impact numérique ?",
       options: [
         "Fermer les onglets inutiles",
@@ -71,7 +107,19 @@ const Quiz = ({ onFinish }) => {
       explanation: "Générer des images IA juste pour s'amuser multiplie inutilement la consommation d'énergie. Chaque génération d'image peut consommer autant qu'une ampoule allumée pendant 30 minutes."
     },
     {
-      id: 6,
+      id: 9,
+      question: "Combien de temps faut-il pour compenser l'empreinte carbone d'un entraînement d'IA ?",
+      options: [
+        "Quelques jours",
+        "Quelques mois",
+        "Plusieurs années",
+        "Plusieurs décennies"
+      ],
+      correct: 2,
+      explanation: "L'empreinte carbone d'un entraînement d'IA peut prendre plusieurs années à être compensée par des arbres. C'est pourquoi il faut optimiser les modèles et éviter les entraînements inutiles."
+    },
+    {
+      id: 10,
       question: "Quel slogan résume le mieux le message ?",
       options: [
         "Ce n'est pas parce que c'est virtuel que ce n'est pas polluant.",

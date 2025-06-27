@@ -7,7 +7,7 @@ import Results from './components/Results';
 function App() {
   const [currentStep, setCurrentStep] = useState('intro');
   const [finalScore, setFinalScore] = useState(0);
-  const [totalQuestions] = useState(6);
+  const [totalQuestions] = useState(10);
 
   const handleStartQuiz = () => {
     setCurrentStep('quiz');
