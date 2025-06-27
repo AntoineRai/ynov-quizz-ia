@@ -23,14 +23,15 @@ body {
   background-color: var(--black-deep);
   color: var(--white-pure);
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100vh;
 }
 
 .App {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .main-content {
@@ -42,7 +43,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: calc(100vh - 80px); /* Hauteur totale moins le header */
+  height: calc(100vh - 80px); /* Hauteur totale moins le header */
+  overflow: hidden;
 }
 
 /* Section d'introduction */
@@ -55,6 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .main-title {
@@ -157,6 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .results-title {
@@ -234,7 +238,7 @@ body {
 @media (max-width: 768px) {
   .main-content {
     padding: 0.5rem;
-    min-height: calc(100vh - 120px); /* Ajustement pour mobile */
+    height: calc(100vh - 120px); /* Ajustement pour mobile */
   }
   
   .stats-preview {
